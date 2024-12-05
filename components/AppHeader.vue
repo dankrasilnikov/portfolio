@@ -10,11 +10,11 @@
             <NuxtLink id="nav-link" to="/" :class="{ active: isActive('/') }">
               _hello
             </NuxtLink>
-
+  
             <NuxtLink id="nav-link" to="/about-me" :class="{ active: isActive('/about-me') }">
               _about-me
             </NuxtLink>
-
+  
             <NuxtLink id="nav-link" to="/projects" :class="{ active: isActive('/projects') }">
               _projects
             </NuxtLink>
@@ -23,7 +23,7 @@
           <NuxtLink id="nav-link-contact" to="/contact-me" :class="{ active: isActive('/contact-me')}">
             _contact-me
           </NuxtLink>
-
+      
       </nav>
 
     </header>
@@ -31,9 +31,11 @@
 </template>
 
 <script>
+import GithubCorner from './GithubCorner.vue';
 export default {
   name: 'AppHeader',
   components: {
+    GithubCorner
   },
   computed: {
     // Set active class to current page link

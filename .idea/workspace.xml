@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4468d865-7b55-4b5f-a6ae-a3f734d16eeb" name="Changes" comment="fix: remove vercel config">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/AppHeader.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/AppHeader.vue" afterDir="false" />
+    <list default="true" id="4468d865-7b55-4b5f-a6ae-a3f734d16eeb" name="Changes" comment="fix: remove yarn">
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1733437265748</updated>
-      <workItem from="1733437267263" duration="690000" />
+      <workItem from="1733437267263" duration="308000" />
     </task>
     <task id="LOCAL-00001" summary="fix: vue errors">
       <option name="closed" value="true" />
@@ -85,23 +79,7 @@
       <option name="project" value="LOCAL" />
       <updated>1733437483776</updated>
     </task>
-    <task id="LOCAL-00003" summary="feat: add vercel config">
-      <option name="closed" value="true" />
-      <created>1733437646522</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1733437646522</updated>
-    </task>
-    <task id="LOCAL-00004" summary="fix: remove vercel config">
-      <option name="closed" value="true" />
-      <created>1733437767800</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1733437767800</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,8 +88,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix: vue errors" />
     <MESSAGE value="fix: remove yarn" />
-    <MESSAGE value="feat: add vercel config" />
-    <MESSAGE value="fix: remove vercel config" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: remove vercel config" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: remove yarn" />
   </component>
 </project>

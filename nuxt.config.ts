@@ -52,16 +52,17 @@ export default defineNuxtConfig({
       '~/components',
     ],
   },
-
+  
   /**
    * * Tailwind CSS Config
    * Options: https://tailwindcss.nuxt.dev/getting-started/options/
    * Docs: https://tailwindcss.nuxt.dev
    */
   tailwindcss: {
-    cssPath: ["~/assets/tailwind.css", { injectPosition: 0 }] ,
+    cssPath: '~/assets/tailwind.css',
     configPath: 'tailwind.config',
     exposeConfig: true, // true to resolve the tailwind config in runtime. https://tailwindcss.nuxt.dev/getting-started/options/#exposeconfig
+    injectPosition: 0,
     viewer: false,
   },
 
