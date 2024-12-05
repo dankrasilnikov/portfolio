@@ -31,7 +31,6 @@
 </template>
 
 <script>
-import GithubCorner from './GithubCorner.vue';
 export default {
   name: 'AppHeader',
   components: {
