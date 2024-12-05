@@ -9,7 +9,7 @@
     "test": "vitest"
   },
   "devDependencies": {
-    "nuxt": "^3.14.1592",
+    "nuxt": "^3.0.0",
     "vitest": "^0.25.3"
   },
   "dependencies": {
