@@ -13,7 +13,4 @@ export default defineAppConfig({
         primary: '#ff0000'
       }
     },
-    plugins: [
-        { src: '~/plugins/gtag.js', mode: 'client' }
-    ],
   })
