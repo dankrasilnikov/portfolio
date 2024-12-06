@@ -71,7 +71,7 @@
         "social": {
             "github": {
                 "title": "Github profile",
-                "url": "https://github.com/dankrasilnikov",
+                "url": "https://github.com/",
                 "user": "dankrasilnikov"
             },
             "facebook": {
@@ -90,17 +90,17 @@
             "sources": {
                 "threads": {
                     "title": "Threads account",
-                    "url": "https://www.threads.net/@dan_krasilnikov",
+                    "url": "https://www.threads.net/",
                     "user": "dan_krasilnikov"
                 },
                 "instagram": {
                     "title": "Instagram account",
-                    "url": "https://www.instagram.com/dan_krasilnikov/",
+                    "url": "https://www.instagram.com/",
                     "user": "dan_krasilnikov"
                 },
                 "linkedin": {
                     "title": "LinkedIn profile",
-                    "url": "https://www.linkedin.com/in/daniil-krasilnikov/",
+                    "url": "https://www.linkedin.com/in/",
                     "user": "daniil-krasilnikov"
                 }
             }
