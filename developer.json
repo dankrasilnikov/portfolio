@@ -1,7 +1,7 @@
 {
     "name": "Daniil Krasilnikov",
     "logo_name": "dankrasilnikov",
-    "role": "FullStack Developer | IoT & Robotics Enthusiast",
+    "role": "FullStack Developer",
     "about": {
         "sections": {
             "professional-info": {
@@ -23,41 +23,42 @@
                 }
             },
             "personal-info": {
-                "title": "personal-info",
+                "title": "Personal Info",
                 "icon": "icons/info-personal.svg",
                 "info": {
                     "bio": {
-                        "title": "bio",
-                        "description": "<br> About me <br> I have 5 years of experience in web development lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat  nulla pariatur. Excepteur sint occaecat  officia deserunt mollit anim id est laborum."
+                        "title": "Bio",
+                        "description": "<br><strong>About Me</strong><br> With 5 years of experience in web development, I specialize in creating high-performance web applications and exploring the potential of IoT and robotics. My passion lies in building innovative solutions that bridge the gap between software and hardware. I enjoy tackling challenging projects that require creativity, precision, and technical expertise."
                     },
                     "interests": {
-                        "title": "interests",
-                        "description": "<br>I am constantly learning and lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+                        "title": "Interests",
+                        "description": "<br><strong>Interests</strong><br> I am deeply passionate about IoT, robotics, and cutting-edge technology. I constantly learn about new frameworks, hardware integrations, and AI advancements. In my free time, I contribute to open-source projects and explore creative applications of technology in real-world scenarios."
                     },
                     "education": {
-                        "title": "education",
-                        "description": "<br>I have always been passionate about lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                        "title": "Education",
+                        "description": "<br><strong>Education</strong><br> My journey in technology began with self-taught programming and has grown into a structured study of computer science. Currently, I am pursuing a degree in Computer Science, focusing on IoT systems and artificial intelligence. My education has been supplemented with numerous online courses, certifications, and practical projects, allowing me to stay at the forefront of technology.",
                         "files": {
-                            "high-school": "I have been in 'Las viñas'...",
-                            "university": "The university..."
+                            "high-school": "Graduated with honors from Las Viñas High School, building a strong foundation in mathematics and computer science.",
+                            "university": "Currently studying Computer Science with a focus on IoT and AI applications, aiming to integrate innovative solutions into practical scenarios."
                         }
                     }
                 }
             },
             "hobbies-info": {
-                "title": "hobbies-info",
+                "title": "Hobbies",
                 "icon": "icons/info-hobbies.svg",
                 "info": {
                     "sports": {
-                        "title": "sports",
-                        "description": "<br>I am an avid sports enthusiast and lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+                        "title": "Sports",
+                        "description": "<br><strong>Sports</strong><br> I am deeply passionate about sports that challenge both the mind and body. As a fencing enthusiast, I enjoy the precision, strategy, and discipline that this sport requires. Fencing helps me sharpen my focus, improve my reflexes, and maintain a healthy balance between mental and physical well-being."
                     },
-                    "favorite-games": {
-                        "title": "favorite-games",
-                        "description": "<br>I am a passionate gamer with Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br><br> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    "robotics": {
+                        "title": "Robotics",
+                        "description": "<br><strong>Robotics</strong><br> Robotics is not just a professional interest for me, but also a hobby. I spend my free time experimenting with microcontrollers like Arduino and Raspberry Pi, building small robotic systems, and exploring how hardware and software can seamlessly integrate to solve real-world problems. This hands-on exploration fuels my creativity and helps me stay ahead in the rapidly evolving field of technology."
                     }
                 }
             }
+
         }
     },
     "contacts": {
@@ -111,47 +112,50 @@
         "2": "694c1f32332788a2ac7f37b09e5aa40e"
     },
     "projects": {
-        "1": {
-            "title": "_ui-animations",
-            "description": "Duis aute irure dolor in velit esse cillum dolore.",
-            "img": "/images/projects/ui-animations2.png",
-            "tech": ["Flutter"],
-            "url": "https://github.com/"
-        },
-        "2": {
-            "title": "_ai-resources",
-            "description": "Duis aute irure dolor in velit esse cillum dolore.",
-            "img": "/images/projects/ai-resources.png",
-            "tech": ["Gatsby"],
-            "url": "https://github.com/"
-        },
-        "3": {
-            "title": "_worldmap",
-            "description": "Duis aute irure dolor in velit esse cillum dolore.",
-            "img": "/images/projects/worldmap.png",
-            "tech": ["Angular"],
-            "url": "https://github.com/"
-        },
-        "4": {
-            "title": "_ui-animations",
-            "description": "Duis aute irure dolor in velit esse cillum dolore.",
-            "img": "/images/projects/ui-animations.png",
-            "tech": ["React"],
-            "url": "https://github.com/"
-        },
-        "5": {
-            "title": "_tetris-game",
-            "description": "Duis aute irure dolor in velit esse cillum dolore.",
-            "img": "/images/projects/tetris-game.png",
-            "tech": ["React"],
-            "url": "https://github.com/"
-        },
-        "6": {
-            "title": "_ethereum",
-            "description": "Duis aute irure dolor in velit esse cillum dolore.",
-            "img": "/images/projects/ethereum.png",
-            "tech": ["Vue"],
-            "url": "https://github.com/"
+        "projects": {
+            "1": {
+                "title": "Terra.do",
+                "description": "Climate education platform designed to help individuals and organizations learn about and address climate change.",
+                "img": "/images/projects/terra-do.png",
+                "tech": ["React", "Node.js"],
+                "url": "https://terra.do"
+            },
+            "2": {
+                "title": "ClipFlip",
+                "description": "A video marketing SaaS platform that enables businesses to create, manage, and distribute marketing videos effectively.",
+                "img": "/images/projects/clipflip.png",
+                "tech": ["Next.js", "TypeScript"],
+                "url": "https://clipflip.video"
+            },
+            "3": {
+                "title": "Mobioffice",
+                "description": "Business solutions SaaS that streamlines office operations and improves team collaboration through innovative tools.",
+                "img": "/images/projects/mobioffice.png",
+                "tech": ["Angular", "Express.js"],
+                "url": "https://mobioffice.io"
+            },
+            "4": {
+                "title": "Kgirdharlal",
+                "description": "Jewelry e-commerce store providing a seamless shopping experience for high-quality, beautifully designed jewelry pieces.",
+                "img": "/images/projects/kgirdharlal.png",
+                "tech": ["Shopify", "Liquid"],
+                "url": "https://kgirdharlal.com"
+            },
+            "5": {
+                "title": "Meds Recognition App",
+                "description": "An AI-powered application that helps users recognize and manage their medications through image recognition.",
+                "img": "/images/projects/meds-recognition.png",
+                "tech": ["Python", "TensorFlow", "Flutter"],
+                "url": "https://github.com/"
+            },
+            "6": {
+                "title": "Electronics Education Platform",
+                "description": "A learning platform designed to teach users about electronics, IoT, and robotics through interactive tutorials and projects.",
+                "img": "/images/projects/electronics-education.png",
+                "tech": ["Vue", "Node.js", "MongoDB"],
+                "url": "https://github.com/"
+            }
         }
+
     }
 }
