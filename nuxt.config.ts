@@ -43,16 +43,14 @@ export default defineNuxtConfig({
    * * Nuxt 3 Modules
    * Official modules: https://nuxt.com/modules
    */
-  modules: [
-    '@nuxtjs/tailwindcss',
-  ],
+  modules: ['@nuxtjs/tailwindcss', 'nuxt-gtag'],
 
   components: {
     dirs: [
       '~/components',
     ],
   },
-  
+
   /**
    * * Tailwind CSS Config
    * Options: https://tailwindcss.nuxt.dev/getting-started/options/
@@ -64,6 +62,9 @@ export default defineNuxtConfig({
     exposeConfig: true, // true to resolve the tailwind config in runtime. https://tailwindcss.nuxt.dev/getting-started/options/#exposeconfig
     injectPosition: 0,
     viewer: false,
+  },
+  gtag: {
+    id: 'G-CT4413VL1D'
   },
 
   /**

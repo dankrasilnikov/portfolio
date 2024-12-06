@@ -10,6 +10,7 @@
   },
   "devDependencies": {
     "nuxt": "3.0.0",
+    "nuxt-gtag": "^3.0.2",
     "vitest": "^0.25.3"
   },
   "dependencies": {
