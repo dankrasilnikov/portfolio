@@ -1,7 +1,7 @@
 {
     "name": "Daniil Krasilnikov",
     "logo_name": "dankrasilnikov",
-    "role": "FullStack developer",
+    "role": "FullStack Developer",
     "about": {
         "sections": {
             "professional-info": {
@@ -23,41 +23,42 @@
                 }
             },
             "personal-info": {
-                "title": "Personal Info",
+                "title": "personal-info",
                 "icon": "icons/info-personal.svg",
                 "info": {
                     "bio": {
-                        "title": "Bio",
-                        "description": "<br><strong>About Me</strong><br> With 5 years of experience in web development, I specialize in creating high-performance web applications and exploring the potential of IoT and robotics. My passion lies in building innovative solutions that bridge the gap between software and hardware. I enjoy tackling challenging projects that require creativity, precision, and technical expertise."
+                        "title": "bio",
+                        "description": "<br> About me <br> I have 5 years of experience in web development lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat  nulla pariatur. Excepteur sint occaecat  officia deserunt mollit anim id est laborum."
                     },
                     "interests": {
-                        "title": "Interests",
-                        "description": "<br><strong>Interests</strong><br> I am deeply passionate about IoT, robotics, and cutting-edge technology. I constantly learn about new frameworks, hardware integrations, and AI advancements. In my free time, I contribute to open-source projects and explore creative applications of technology in real-world scenarios."
+                        "title": "interests",
+                        "description": "<br>I am constantly learning and lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
                     },
                     "education": {
-                        "title": "Education",
-                        "description": "<br><strong>Education</strong><br> My journey in technology began with self-taught programming and has grown into a structured study of computer science. Currently, I am pursuing a degree in Computer Science, focusing on IoT systems and artificial intelligence. My education has been supplemented with numerous online courses, certifications, and practical projects, allowing me to stay at the forefront of technology.",
+                        "title": "education",
+                        "description": "<br>I have always been passionate about lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
                         "files": {
-                            "high-school": "Graduated with honors from Las Viñas High School, building a strong foundation in mathematics and computer science.",
-                            "university": "Currently studying Computer Science with a focus on IoT and AI applications, aiming to integrate innovative solutions into practical scenarios."
+                            "high-school": "I have been in 'Las viñas'...",
+                            "university": "The university..."
                         }
                     }
                 }
             },
             "hobbies-info": {
-                "title": "Hobbies",
+                "title": "hobbies-info",
                 "icon": "icons/info-hobbies.svg",
                 "info": {
                     "sports": {
-                        "title": "Sports",
-                        "description": "<br><strong>Sports</strong><br> I am deeply passionate about sports that challenge both the mind and body. As a fencing enthusiast, I enjoy the precision, strategy, and discipline that this sport requires. Fencing helps me sharpen my focus, improve my reflexes, and maintain a healthy balance between mental and physical well-being."
+                        "title": "sports",
+                        "description": "<br>I am an avid sports enthusiast and lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
                     },
-                    "robotics": {
-                        "title": "Robotics",
-                        "description": "<br><strong>Robotics</strong><br> Robotics is not just a professional interest for me, but also a hobby. I spend my free time experimenting with microcontrollers like Arduino and Raspberry Pi, building small robotic systems, and exploring how hardware and software can seamlessly integrate to solve real-world problems. This hands-on exploration fuels my creativity and helps me stay ahead in the rapidly evolving field of technology."
+                    "favorite-games": {
+                        "title": "favorite-games",
+                        "description": "<br>I am a passionate gamer with Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br><br> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                     }
                 }
             }
+
         }
     },
     "contacts": {
