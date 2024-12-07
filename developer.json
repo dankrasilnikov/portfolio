@@ -115,44 +115,44 @@
         "1": {
             "title": "Terra.do",
             "description": "Climate education platform designed to help individuals and organizations learn about and address climate change.",
-            "img": "/images/projects/terra-do.png",
-            "tech": ["React", "Node.js"],
+            "img": "/images/projects/terradopreview.png",
+            "tech": ["Svelte", "React", "TypeScript", "Firebase", "SaaS", "Sass", "Microservices", "Svelte Testing Library", "Storybook"],
             "url": "https://terra.do"
         },
         "2": {
             "title": "ClipFlip",
             "description": "A video marketing SaaS platform that enables businesses to create, manage, and distribute marketing videos effectively.",
-            "img": "/images/projects/clipflip.png",
-            "tech": ["Next.js", "TypeScript"],
+            "img": "/images/projects/clipflippreview.png",
+            "tech": ["Svelte", "TypeScript", "Firebase", "SaaS", "Tailwind CSS", "Vitest", "Svelte Testing Library"],
             "url": "https://clipflip.video"
         },
         "3": {
             "title": "Mobioffice",
             "description": "Business solutions SaaS that streamlines office operations and improves team collaboration through innovative tools.",
-            "img": "/images/projects/mobioffice.png",
-            "tech": ["Angular", "Express.js"],
+            "img": "/images/projects/mobiofficepreview.png",
+            "tech": ["React", "TypeScript", "Firebase", "SaaS", "Anime.js", "Node.js"],
             "url": "https://mobioffice.io"
         },
         "4": {
             "title": "Kgirdharlal",
             "description": "Jewelry e-commerce store providing a seamless shopping experience for high-quality, beautifully designed jewelry pieces.",
-            "img": "/images/projects/kgirdharlal.png",
-            "tech": ["Shopify", "Liquid"],
+            "img": "/images/projects/kfirharalpreview.png",
+            "tech": ["React", "TypeScript", "Qwik.io", "Anime.js", "Sass"],
             "url": "https://kgirdharlal.com"
         },
         "5": {
             "title": "Meds Recognition App",
             "description": "An AI-powered application that helps users recognize and manage their medications through image recognition.",
             "img": "/images/projects/meds-recognition.png",
-            "tech": ["Python", "TensorFlow", "Flutter"],
-            "url": "https://github.com/"
+            "tech": ["React Native", "TypeScript", "Expo", "Supabase"],
+            "url": "https://github.com/SPerekrestova/MedsRecognition"
         },
         "6": {
             "title": "Electronics Education Platform",
             "description": "A learning platform designed to teach users about electronics, IoT, and robotics through interactive tutorials and projects.",
             "img": "/images/projects/electronics-education.png",
-            "tech": ["Vue", "Node.js", "MongoDB"],
-            "url": "https://github.com/"
+            "tech": ["React", "Node.js", "Supabase", "Qwik.io"],
+            "url": "https://github.com/dankrasilnikov/ElectronicsEducationPlatform"
         }
     }
 }
