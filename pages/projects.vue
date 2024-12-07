@@ -80,7 +80,7 @@ import { ref } from 'vue'
 
 const config = useRuntimeConfig()
 
-const techs = ['React', 'Svelte', 'Saas']
+const techs = ['React', 'Svelte', 'SaaS']
 const filters = ref(['all'])
 const showFilters = ref(true)
 const projects = ref(config.public.dev.projects)
