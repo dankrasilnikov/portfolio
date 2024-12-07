@@ -10,7 +10,7 @@
       <img :class="showFilters ? 'section-arrow rotate-90' : 'section-arrow'" src="/icons/arrow.svg">
       <span class="font-fira_regular text-white text-sm">projects</span>
     </div>
-    
+
     <div v-if="showFilters" id="filter-menu" class="w-full flex-col border-right font-fira_regular text-menu-text lg:flex">
       <!-- title -->
       <div id="section-content-title" class="hidden lg:flex items-center min-w-full">
@@ -20,7 +20,7 @@
 
       <!-- filter menu -->
       <nav id="filters" class="w-full flex-col">
-  
+
         <div v-for="tech in techs" :key="tech" class="flex items-center py-2">
           <input type="checkbox" :id="tech" @click="filterProjects(tech)">
           <img :id="'icon-tech-' + tech" :src="'/icons/techs/' + tech + '.svg'" alt="" class="tech-icon w-5 h-5 mx-4">
@@ -32,7 +32,7 @@
     <!-- content -->
 
     <div class="flex flex-col w-full overflow-hidden">
-      
+
       <!-- windows tab -->
       <div class="tab-height w-full hidden lg:flex border-bot items-center">
         <div class="flex items-center border-right h-full">
@@ -62,10 +62,10 @@
             for these technologies
           </span>
         </div>
-        
+
         <project-card
-          v-for="(project, key, index) in projects" 
-          :key="key" 
+          v-for="(project, key, index) in projects"
+          :key="key"
           :index="index"
           :project="project"
         />
@@ -80,7 +80,7 @@ import { ref } from 'vue'
 
 const config = useRuntimeConfig()
 
-const techs = ['React', 'HTML', 'CSS', 'Vue', 'Angular', 'Gatsby', 'Flutter']
+const techs = ['React', 'Svelte', 'Saas']
 const filters = ref(['all'])
 const showFilters = ref(true)
 const projects = ref(config.public.dev.projects)
