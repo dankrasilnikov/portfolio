@@ -139,21 +139,8 @@
             "img": "/images/projects/kfirharalpreview.png",
             "tech": ["React", "TypeScript", "Qwik.io", "Sass"],
             "url": "https://kgirdharlal.com"
-        },
-        "5": {
-            "title": "Meds Recognition App",
-            "description": "An AI-powered application that helps users recognize and manage their medications through image recognition.",
-            "img": "/images/projects/meds-recognition.png",
-            "tech": ["React Native", "TypeScript", "Expo", "Supabase"],
-            "url": "https://github.com/SPerekrestova/MedsRecognition"
-        },
-        "6": {
-            "title": "Electronics Education Platform",
-            "description": "A learning platform designed to teach users about electronics, IoT, and robotics through interactive tutorials and projects.",
-            "img": "/images/projects/electronics-education.png",
-            "tech": ["React", "Node.js", "Supabase", "Qwik.io"],
-            "url": "https://github.com/dankrasilnikov/ElectronicsEducationPlatform"
         }
     }
 }
+
 

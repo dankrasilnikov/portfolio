@@ -41,9 +41,9 @@ export default {
             const name = document.querySelector('input[name="name"]').value;
             const email = document.querySelector('input[name="email"]').value;
             const message = document.querySelector('textarea[name="message"]').value;
-            
+
             // Here the code to send the email
-            
+            // TODO SEND EMAIL CODE
         });
     }
 }
@@ -58,11 +58,11 @@ input {
     background-color: #011221;
     border: 2px solid #1E2D3D;
     border-radius: 7px;
-    
+
 }
 /* Change Autocomplete styles in Chrome*/
 input:-webkit-autofill,
-input:-webkit-autofill:hover, 
+input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 textarea:-webkit-autofill,
 textarea:-webkit-autofill:hover,
