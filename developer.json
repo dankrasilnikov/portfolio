@@ -130,7 +130,7 @@
             "title": "Mobioffice",
             "description": "Business solutions SaaS that streamlines office operations and improves team collaboration through innovative tools.",
             "img": "/images/projects/mobiofficepreview.png",
-            "tech": ["React", "TypeScript", "Firebase", "SaaS", "Node.js", "Node.js"],
+            "tech": ["React", "TypeScript", "Firebase", "SaaS", "Node.js"],
             "url": "https://mobioffice.io"
         },
         "4": {
