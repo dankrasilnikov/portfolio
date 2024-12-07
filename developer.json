@@ -130,14 +130,14 @@
             "title": "Mobioffice",
             "description": "Business solutions SaaS that streamlines office operations and improves team collaboration through innovative tools.",
             "img": "/images/projects/mobiofficepreview.png",
-            "tech": ["React", "TypeScript", "Firebase", "SaaS", "Anime.js", "Node.js"],
+            "tech": ["React", "TypeScript", "Firebase", "SaaS", "Node.js", "Node.js"],
             "url": "https://mobioffice.io"
         },
         "4": {
             "title": "Kgirdharlal",
             "description": "Jewelry e-commerce store providing a seamless shopping experience for high-quality, beautifully designed jewelry pieces.",
             "img": "/images/projects/kfirharalpreview.png",
-            "tech": ["React", "TypeScript", "Qwik.io", "Anime.js", "Sass"],
+            "tech": ["React", "TypeScript", "Qwik.io", "Sass"],
             "url": "https://kgirdharlal.com"
         },
         "5": {
