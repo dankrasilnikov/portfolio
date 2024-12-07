@@ -18,7 +18,7 @@
                 <div id="links">
                     <div v-for="(source, key) in contact.direct.sources" :key="key" class="link">
                         <img :src="'/icons/' + key + '.svg'">
-                        <a v-html="source" href="/" class="font-fira_retina text-menu-text hover:text-white"></a>
+                        <a v-html="source" href="/" class="font-fira_retina text-menu-text hover:text-white line-clamp-4 overflow-hidden text-ellipsis whitespace-nowrap"></a>
                     </div>
                 </div>
             </div>
@@ -40,7 +40,7 @@
             </div>
 
         </div>
-            
+
         <div class="flex flex-col w-full">
 
         <!-- windows tab -->
@@ -55,15 +55,15 @@
 
             <!-- main -->
             <div class="flex lg:grid lg:grid-cols-2 h-full w-full">
-        
+
                 <div id="left" class="h-full w-full flex flex-col border-right items-center">
-                    
+
                     <ContactForm :name="name" :email="email" :message="message" />
 
                 </div>
 
                 <div id="right" class="h-full w-full hidden lg:flex">
-                    
+
                     <div class="form-content">
                         <FormContentCode :name="name" :email="email" :message="message" />
                     </div>
@@ -71,7 +71,7 @@
                     <div id="scroll-bar" class="h-full border-left flex justify-center py-1">
                         <div id="scroll"></div>
                     </div>
-                
+
                 </div>
             </div>
 
@@ -138,7 +138,7 @@ export default {
          */
         const links = document.getElementsByClassName('submenu');
         for (let i = 0; i < links.length; i++) {
-            if(window.innerWidth > 1024){ 
+            if(window.innerWidth > 1024){
                 links[i].querySelector("#links").style.display = "block";
                 links[i].querySelector(".arrow").style.transform = "rotate(90deg)";
             } else {
@@ -193,7 +193,7 @@ export default {
     font-size: 15px;
 }
 @media (min-width: 1024px) {
-    
+
     .submenu .title {
         display: flex;
         align-items: center;
