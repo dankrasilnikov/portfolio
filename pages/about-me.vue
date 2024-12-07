@@ -35,7 +35,7 @@
               <div v-for="(file, key) in folder.files" :key="key" class="hover:text-white hover:cursor-pointer flex my-2">
                 <img src="/icons/markdown.svg" alt="" class="ml-8 mr-3"/>
                 <p >{{ key }}</p>
-              </div> 
+              </div>
             </div>
           </div>
         </div>
@@ -48,7 +48,7 @@
         <div id="contact-sources" class="hidden lg:flex lg:flex-col my-2">
           <div v-for="(source, key) in config.dev.contacts.direct.sources" :key="key" class="flex items-center mb-2">
             <img :src="'/icons/' + key + '.svg'" alt="" class="mx-4">
-            <a v-html="source" href="/" class="font-fira_retina text-menu-text hover:text-white"></a>
+            <a v-html="source" href="/" class="font-fira_retina text-menu-text hover:text-white line-clamp-4 overflow-hidden text-ellipsis whitespace-nowrap"></a>
           </div>
         </div>
 
@@ -58,7 +58,7 @@
       <div id="section-content" class="lg:hidden w-full font-fira_regular">
 
         <div v-for="section in config.dev.about.sections" :key="section.title">
-          
+
           <!-- section title (mobile) -->
           <div :key="section.title" :src="section.icon" id="section-content-title" class="flex lg:hidden mb-1" @click="focusCurrentSection(section)">
             <img src="/icons/arrow.svg" :id="'section-arrow-' + section.title" alt="" class="section-arrow">
@@ -78,11 +78,11 @@
                   <img src="/icons/markdown.svg" alt="" class="ml-8 mr-3"/>
                   <p >{{ key }}</p>
                 </div>
-                
+
               </div>
             </div>
           </div>
-          
+
         </div>
 
         <!-- section content title -->
@@ -106,9 +106,9 @@
 
     <!-- content -->
     <div class="flex flex-col lg:grid lg:grid-cols-2 h-full w-full">
-      
+
       <div id="left" class="w-full flex flex-col border-right">
-        
+
         <!-- windows tab desktop -->
         <div class="tab-height w-full hidden lg:flex border-bot items-center">
           <div class="flex items-center border-right h-full">
@@ -124,14 +124,14 @@
             <span class="text-menu-text"> / </span>
             <h3 v-html="config.dev.about.sections[currentSection].info[folder].title" class="text-menu-text pl-2"></h3>
         </div>
-        
+
         <!-- text -->
         <div id="commented-text" class="flex h-full w-full lg:border-right overflow-hidden">
 
           <div class="w-full h-full ml-5 mr-10 lg:my-5 overflow-scroll">
               <CommentedText :text="config.dev.about.sections[currentSection].info[folder].description" />
           </div>
-          
+
           <!-- scroll bar -->
           <div id="scroll-bar" class="h-full border-left hidden lg:flex justify-center py-1">
             <div id="scroll">
@@ -140,11 +140,11 @@
         </div>
 
       </div>
-      
+
     </div>
 
     <div id="right" class="max-w-full flex flex-col">
-        
+
       <!-- windows tab -->
       <div class="tab-height w-full h-full hidden lg:flex border-bot items-center">
 
@@ -156,7 +156,7 @@
       </div>
 
         <div id="gists-content" class="flex">
-        
+
           <div id="gists" class="flex flex-col lg:px-6 lg:py-4 w-full overflow-hidden">
             <!-- title -->
             <h3 class="text-white lg:text-menu-text mb-4 text-sm">// Code snippet showcase:</h3>
