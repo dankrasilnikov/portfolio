@@ -24,13 +24,20 @@ export default defineNuxtConfig({
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { hid: 'description', name: 'description', content: 'A awesome developer portfolio design.' },
+        { hid: 'description', name: 'description', content: 'Explore the portfolio of Daniil Krasilnikov, a highly skilled FullStack Developer with expertise in React, Svelte, Node.js, and TypeScript. See past projects and success stories.' },
         { hid: 'og:title', property: 'og:title', content: siteTitle },
-        { hid: 'og:description', property: 'og:description', content: 'A awesome developer portfolio design.' },
-        { hid: 'og:image', property: 'og:image', content: 'demo-share.jpg' },
-        { hid: 'og:url', property: 'og:url', content: 'https://developer-portfolio-v1.netlify.app/' },
+        { hid: 'og:description', property: 'og:description', content: 'Discover cutting-edge web applications and SaaS solutions built by Daniil Krasilnikov. Get inspired by innovative designs and robust backend systems.' },
+        { hid: 'og:image', property: 'og:image', content: 'https://krasilnikov.info/demo-share.png' },
+        { hid: 'og:url', property: 'og:url', content: 'https://krasilnikov.info/' },
+        { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
+        { hid: 'twitter:title', name: 'twitter:title', content: siteTitle },
+        { hid: 'twitter:description', name: 'twitter:description', content: 'Explore the professional portfolio of Daniil Krasilnikov, showcasing modern web applications, SaaS solutions, and IoT interfaces.' },
+        { hid: 'twitter:image', name: 'twitter:image', content: 'https://krasilnikov.info/demo-share.png' },
         { name: 'theme-color', content: '#010C15' },
-        // ...
+        { name: 'keywords', content: 'FullStack Developer, React, Svelte, TypeScript, Node.js, SaaS, Portfolio, Developer Portfolio' },
+        { name: 'author', content: 'Daniil Krasilnikov' },
+        { name: 'robots', content: 'index, follow' },
+        { name: 'canonical', content: 'https://krasilnikov.info/' }
       ],
       link: [
         { rel: 'manifest', href: 'pwa/manifest.json' },
