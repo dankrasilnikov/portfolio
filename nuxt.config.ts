@@ -34,7 +34,7 @@ export default defineNuxtConfig({
         { hid: 'twitter:description', name: 'twitter:description', content: 'Explore the professional portfolio of Daniil Krasilnikov, showcasing modern web applications, SaaS solutions, and IoT interfaces.' },
         { hid: 'twitter:image', name: 'twitter:image', content: 'https://krasilnikov.info/demo-share.png' },
         { name: 'theme-color', content: '#010C15' },
-        { name: 'keywords', content: 'FullStack Developer, React, Svelte, TypeScript, Node.js, SaaS, Portfolio, Developer Portfolio' },
+        { name: 'keywords', content: 'ullStack Developer, React, Svelte, TypeScript, Node.js, SaaS, Portfolio, Developer Portfolio, IoT, Robotics, Embedded Systems, JavaScript, Web Development, Progressive Web Apps, PWA, Microcontrollers, Arduino, Raspberry Pi, ESP32, Hardware Integration, MQTT, Sensors, Actuators, Modern Web Applications, Scalable Systems, Web Performance Optimization, Frontend Developer, Backend Developer, API Development, GraphQL, REST APIs, Responsive Design, UI/UX Design, TailwindCSS, WebSockets, Next.js, Software Development, Cloud Integration, Docker, Microservices Architecture, Electronics Education, Real-Time Applications, Automation, Innovation, Tech Solutions' },
         { name: 'author', content: 'Daniil Krasilnikov' },
         { name: 'robots', content: 'index, follow' },
         { name: 'canonical', content: 'https://krasilnikov.info/' }
