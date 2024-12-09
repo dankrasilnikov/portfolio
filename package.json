@@ -13,6 +13,7 @@
     "vitest": "^0.25.3"
   },
   "dependencies": {
+    "@vercel/analytics": "^1.4.1",
     "nuxt-gtag": "^3.0.2",
     "@highlightjs/vue-plugin": "highlightjs/vue-plugin",
     "@nuxtjs/tailwindcss": "^6.1.3",
