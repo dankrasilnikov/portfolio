@@ -3,6 +3,7 @@
   <AppHeader/>
   <NuxtPage data-aos="fade-in"/>
   <AppFooter/>
+  <Analytics/>
 </template>
 
 <script>
