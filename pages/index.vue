@@ -6,12 +6,12 @@
     	<div class="css-blurry-gradient-green"></div>
 
 		<section class="hero">
-		
+
 			<div class="head">
 				<span>
 					Hi all, I am
 				</span>
-				<h1>{{ config.dev.name }}</h1>
+				<h1>Daniil</h1>
         <span class="diple flex">
           >&nbsp;
 				<h2 class="line-1 anim-typewriter max-w-fit"> {{ config.dev.role }} </h2>
@@ -90,7 +90,7 @@ function handleResize() {
 .hero {
 	width: 100%;
 	justify-content: center;
-	
+
 }
 .game {
 	display: flex;
@@ -264,7 +264,7 @@ function handleResize() {
 		font-size: 20px;
 		color: #43D9AD;
 	}
-	
+
 	#info .action {
 		display: none;
 	}
